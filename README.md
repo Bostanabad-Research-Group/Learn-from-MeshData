@@ -32,4 +32,37 @@ data/
 └── solid3d_data.pt
 
 ```
+
+## 🏃 Usage
+
+All training and evaluation is managed via `main.py`:
+
+```bash
+python main.py \
+  --problem naca \
+  --model eunet \
+  --ntrain 1000 \
+  --res 128 \
+  --epochs 100 \
+  --batch_size 10 \
+  --seed 2025
+```
+
+| Flag           | Description                                                  |
+| -------------- | ------------------------------------------------------------ |
+| `--problem`    | One of `naca`, `elas`, `darcy`, `circles`, `maze`, `solid3d` |
+| `--model`      | `efno` or `eunet`                                            |
+| `--ntrain`     | Number of training samples                                   |
+| `--res`        | Grid resolution (e.g. 128 for 128×128)                       |
+| `--epochs`     | Training epochs                                              |
+| `--batch_size` | Batch size                                                   |
+| `--seed`       | Random seed for reproducibility                              |
+
+After running, check:
+
+- `checkpoints/` for saved model weights (`*_model.pt`)
+- `Results/<problem>/history_<title>.csv` for training loss history
+- `Results/<problem>/rL2_<title>.csv` for relative L2 errors
+- `Results/<problem>/ET_params_<title>.txt` for elapsed time & parameter counts
+
     
