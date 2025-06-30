@@ -1,5 +1,5 @@
-# Learn-from-MeshData
-Learning input-output relations in mesh-based simulations
+## 📖 Learning Mappings in Mesh-based Simulations
+Code for the paper [Learning Mappings in Mesh-based Simulations](https://arxiv.org/abs/2506.12652) which introduces a parameter-free encoding scheme for handling point clouds (e.g., nodes in mesh-based data). Our encoder aggregates the linear footprint of points onto grid vertices and provide grid representations of the topology. Such structured representations are well-suited for downstream convolutional or FFT processing and enable efficient learning of mappings between encoded input-output pairs. We integrate this encoder with a customized UNet (E-UNet) and FNO (E-FNO) architechture.
 
 ---
 ## 🔧 Installation
@@ -68,6 +68,7 @@ After running, check:
 ---
 
 ## 📑 Citation
+If you use this code or find our work interesting, please cite the following paper:
 ```bibtex
 @article{hosseinmardi2025learning,
   title={Learning Mappings in Mesh-based Simulations},
