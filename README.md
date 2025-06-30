@@ -1,7 +1,7 @@
 # Learn-from-MeshData
 Learning input-output relations in mesh-based simulations
 
-
+---
 ## 🔧 Installation
 
 1. **Clone the repository**  
@@ -17,7 +17,7 @@ Learning input-output relations in mesh-based simulations
    conda activate env_learnmesh
    ```
 
-
+---
 ## 📦 Prepare Data
 Pre-built datasets for each problem are available for download from [here](https://ucirvine-my.sharepoint.com/:u:/g/personal/shirinh1_ad_uci_edu/EfGytUtAxJdEp48KwtdV3PYBMKn1MnA2VMrRo0pM0Cznmw?e=mCZx5v).
 
@@ -32,7 +32,7 @@ data/
 └── solid3d_data.pt
 
 ```
-
+---
 ## 🏃 Usage
 
 All training and evaluation is managed via `main.py`:
@@ -65,4 +65,15 @@ After running, check:
 - `Results/<problem>/rL2_<title>.csv` for relative L2 errors
 - `Results/<problem>/ET_params_<title>.txt` for elapsed time & parameter counts
 
+---
+
+## 📑 Citation
+```bibtex
+@article{hosseinmardi2025learning,
+  title={Learning Mappings in Mesh-based Simulations},
+  author={Hosseinmardi, Shirin and Bostanabad, Ramin},
+  journal={arXiv preprint arXiv:2506.12652},
+  year={2025}
+}
+```
     
