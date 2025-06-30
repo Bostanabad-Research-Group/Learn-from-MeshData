@@ -6,7 +6,7 @@ Code for the paper [Learning Mappings in Mesh-based Simulations](https://arxiv.o
 ![flowchart](figures/flowchart.png)
 _Figure 1: E-UNet 2D pipeline._
 
-![examples](examples/sol.png)
+![examples](examples/examples.png)
 _Figure 2: Examples._
 
 
