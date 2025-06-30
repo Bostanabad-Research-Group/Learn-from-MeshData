@@ -1,9 +1,9 @@
-## 📖 Learning Mappings in Mesh-based Simulations
+## 🔍 Learning Mappings in Mesh-based Simulations
 Code for the paper [Learning Mappings in Mesh-based Simulations](https://arxiv.org/abs/2506.12652) which introduces a parameter-free encoding scheme for handling point clouds (e.g., nodes in mesh-based data). Our encoder aggregates the linear footprint of points onto grid vertices and provide grid representations of the topology. Such structured representations are well-suited for downstream convolutional or FFT processing and enable efficient learning of mappings between encoded input-output pairs. We integrate this encoder with a customized UNet (E-UNet) and FNO (E-FNO) architechture and evaluate it on various 2D and 3D problems.
 
 
 
-![flowchart](figures/flowchart.PNG)
+![flowchart](figures/flowchart.png)
 _Figure 1: E-UNet 2D pipeline._
 
 ![examples](examples/sol.png)
