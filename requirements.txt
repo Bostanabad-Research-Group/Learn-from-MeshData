@@ -106,7 +106,6 @@ sympy @ file:///croot/sympy_1724938189289/work
 tabulate @ file:///work/perseverance-python-buildout/croot/tabulate_1701748610754/work
 tensorboard @ file:///croot/tensorboard_1723042039441/work/tensorboard-2.17.0-py3-none-any.whl#sha256=859a499a9b1fb68a058858964486627100b71fcb21646861c61d31846a6478fb
 tensorboard_data_server @ file:///croot/tensorboard-data-server_1724172556187/work/tensorboard_data_server-0.7.0-py3-none-manylinux2014_x86_64.whl#sha256=162df89696269a70a88358ad14c08b73a057ccde1ec28f3dd314ca4fc4fd9ce4
-the_well==1.0.1
 threadpoolctl @ file:///croot/threadpoolctl_1719407800858/work
 torch==2.4.1
 torchaudio==2.4.1
