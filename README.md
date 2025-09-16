@@ -20,7 +20,7 @@ _Figure 2: Examples._
    ```bash
    git clone https://github.com/Bostanabad-Research-Group/Learn-from-MeshData.git
    cd Learn-from-MeshData
-2. **Create a conda encironment & install dependencies**
+2. **Create a conda environment & install dependencies**
    ```bash
    conda env create -f environment.yml
    ```
