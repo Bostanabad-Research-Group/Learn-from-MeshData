@@ -1,7 +1,7 @@
 ## 🎯 Learning Mappings from Mesh-based Data
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-Code for the paper [Learning Mappings in Mesh-based Simulations](https://arxiv.org/abs/2506.12652) which introduces a parameter-free encoding scheme for handling point clouds (e.g., nodes in mesh-based data). Our encoder aggregates the linear footprint of points onto grid vertices and provide grid representations of the topology. Such structured representations are well-suited for downstream convolutional or FFT processing and enable efficient learning of mappings between encoded input-output pairs. We integrate this encoder with a customized UNet (E-UNet) and FNO (E-FNO) architechture and evaluate it on various 2D and 3D problems.
+Code for the paper [Learning Mappings in Mesh-based Simulations](https://doi.org/10.1007/s00158-025-04141-5) which introduces a parameter-free encoding scheme for handling point clouds (e.g., nodes in mesh-based data). Our encoder aggregates the linear footprint of points onto grid vertices and provide grid representations of the topology. Such structured representations are well-suited for downstream convolutional or FFT processing and enable efficient learning of mappings between encoded input-output pairs. We integrate this encoder with a customized UNet (E-UNet) and FNO (E-FNO) architechture and evaluate it on various 2D and 3D problems.
 
 
 
@@ -82,11 +82,16 @@ After running, check:
 ## 📑 Citation
 If you use this code or find our work interesting, please cite the following paper:
 ```bibtex
-@article{hosseinmardi2025learning,
-  title={Learning Mappings in Mesh-based Simulations},
-  author={Hosseinmardi, Shirin and Bostanabad, Ramin},
-  journal={arXiv preprint arXiv:2506.12652},
-  year={2025}
+@article{Hosseinmardi2025,
+  author    = {Shirin Hosseinmardi and Ramin Bostanabad},
+  title     = {Learning mappings in mesh-based simulations},
+  journal   = {Structural and Multidisciplinary Optimization},
+  year      = {2025},
+  volume    = {68},
+  number    = {10},
+  pages     = {200},
+  doi       = {10.1007/s00158-025-04141-5},
 }
+
 ```
     
