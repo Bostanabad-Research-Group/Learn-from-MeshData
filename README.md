@@ -82,7 +82,7 @@ After running, check:
 ## 📑 Citation
 If you use this code or find our work interesting, please cite the following paper:
 ```bibtex
-@article{Hosseinmardi2025,
+@article{hosseinmardi2025,
   author    = {Shirin Hosseinmardi and Ramin Bostanabad},
   title     = {Learning mappings in mesh-based simulations},
   journal   = {Structural and Multidisciplinary Optimization},
